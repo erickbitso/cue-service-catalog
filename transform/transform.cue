@@ -76,7 +76,7 @@ package transform
             ports: [{
                 protocol:   "TCP"
                 port:       8080
-                targetPort: 80
+                targetPort: "http"
             }]
         }
     }
